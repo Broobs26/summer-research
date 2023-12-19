@@ -1,0 +1,3 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_find_pixels.c:35:16:STM32Ipl_GetPixel	32	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_find_pixels.c:87:16:STM32Ipl_FindMinMaxLoc	192	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_find_pixels.c:416:16:STM32Ipl_FindNonZeroLoc	160	static

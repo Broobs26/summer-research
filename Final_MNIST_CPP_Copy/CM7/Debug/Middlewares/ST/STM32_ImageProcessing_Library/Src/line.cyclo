@@ -1,0 +1,4 @@
+line.c:13:13:pixel_magnitude	23
+line.c:189:13:merge_line	14
+line.c:250:6:merge_alot	16
+line.c:377:8:trace_line	8

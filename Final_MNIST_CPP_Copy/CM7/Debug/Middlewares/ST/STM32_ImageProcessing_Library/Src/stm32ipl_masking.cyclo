@@ -1,0 +1,4 @@
+stm32ipl_masking.c:36:16:STM32Ipl_ImageMaskRectangle	5
+stm32ipl_masking.c:67:16:STM32Ipl_ImageMaskCircle	5
+stm32ipl_masking.c:96:16:STM32Ipl_ImageMaskEllipse	7
+stm32ipl_masking.c:135:6:STM32Ipl_GetMaskPixel	3

@@ -1,0 +1,11 @@
+stats.c:25:6:imlib_similarity_line_op	24
+stats.c:147:6:imlib_get_similarity	3
+stats.c:180:6:imlib_get_histogram	113
+stats.c:535:6:imlib_get_percentile	29
+stats.c:658:12:ostu	9
+stats.c:713:6:imlib_get_threshold	5
+stats.c:737:6:imlib_get_statistics	93
+stats.c:1141:12:get_median	5
+stats.c:1154:12:get_median_l	5
+stats.c:1167:6:imlib_get_regression	94
+stats.c:1549:6:stm32ipl_get_regression_points	24

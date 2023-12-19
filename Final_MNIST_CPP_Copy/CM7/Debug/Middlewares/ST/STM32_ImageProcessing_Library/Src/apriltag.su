@@ -1,0 +1,12 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Inc/matd.h:85:21:sq	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/apriltag.c:127:25:zarray_create	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/apriltag.c:156:20:zarray_destroy	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/apriltag.c:218:19:zarray_size	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/apriltag.c:246:20:zarray_ensure_capacity	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/apriltag.c:267:20:zarray_add	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/apriltag.c:336:20:zarray_get_volatile	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/apriltag.c:794:9:homography_compute	248	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/apriltag.c:1032:9:homography_to_pose	224	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/apriltag.c:1117:9:homography_to_model_view	176	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/apriltag.c:1221:6:quat_to_matrix	32	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/apriltag.c:9555:6:imlib_rotation_corr	720	static,ignoring_inline_asm

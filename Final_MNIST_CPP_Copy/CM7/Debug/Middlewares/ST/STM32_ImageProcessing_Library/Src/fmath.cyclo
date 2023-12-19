@@ -1,0 +1,8 @@
+fmath.c:79:7:fast_expf	1
+fmath.c:98:7:fast_cbrtf	5
+fmath.c:120:14:fast_atanf	5
+fmath.c:166:7:fast_atan2f	11
+fmath.c:183:7:fast_log2	1
+fmath.c:194:7:fast_log	1
+fmath.c:199:7:fast_powf	1
+fmath.c:206:6:fast_get_min_max	4

@@ -1,0 +1,8 @@
+blob.c:17:14:sign	1
+blob.c:22:12:sum_m_to_n	2
+blob.c:27:12:sum_2_m_to_n	1
+blob.c:32:12:cumulative_moving_average	1
+blob.c:37:13:bin_up	7
+blob.c:69:13:merge_bins	6
+blob.c:111:14:calc_roundness	18
+blob.c:132:6:imlib_find_blobs	333

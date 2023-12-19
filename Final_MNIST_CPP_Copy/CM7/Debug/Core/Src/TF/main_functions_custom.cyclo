@@ -1,0 +1,49 @@
+cmath:338:3:constexpr float std::log(float)	1
+error_reporter.h:37:11:tflite::ErrorReporter::~ErrorReporter()	1
+error_reporter.h:37:11:virtual tflite::ErrorReporter::~ErrorReporter()	1
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+flatbuffers.h:70:13:void flatbuffers::EndianCheck()	1
+flatbuffers.h:2418:18:const uint8_t* flatbuffers::Table::GetVTable() const	1
+flatbuffers.h:2424:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	2
+schema_generated.h:10577:12:uint32_t tflite::Model::version() const	1
+schema_generated.h:16225:29:const tflite::Model* tflite::GetModel(const void*)	1
+op_resolver.h:35:11:tflite::OpResolver::~OpResolver()	1
+op_resolver.h:35:11:virtual tflite::OpResolver::~OpResolver()	1
+micro_mutable_op_resolver.h:32:12:int tflite::MicroOpResolverAnyVersion()	1
+micro_error_reporter.h:26:3:tflite::MicroErrorReporter::~MicroErrorReporter()	1
+micro_error_reporter.h:26:3:virtual tflite::MicroErrorReporter::~MicroErrorReporter()	1
+error_reporter.h:35:7:constexpr tflite::ErrorReporter::ErrorReporter()	1
+micro_error_reporter.h:24:7:constexpr tflite::MicroErrorReporter::MicroErrorReporter()	1
+main_functions_custom.cpp:41:5:Names::Names()	1
+main_functions_custom.cpp:76:119:void __tcf_0()	1
+main_functions_custom.cpp:81:119:void __tcf_1()	1
+main_functions_custom.cpp:86:119:void __tcf_2()	1
+main_functions_custom.cpp:46:9:int Names::setup(const unsigned char*, uint8_t, uint8_t*, uint32)	12
+main_functions_custom.cpp:109:7:float compute_entropy_normalized(float*, int)	2
+main_functions_custom.cpp:120:6:void unit_test_entropy()	1
+main_functions_custom.cpp:130:5:int setup1()	1
+main_functions_custom.cpp:155:5:int wait_and_sleep(float)	3
+main_functions_custom.cpp:192:6:void incremental_inference_with_voltage(image_t, tflite::MicroInterpreter*, tflite::ErrorReporter*, tflite::MicroInterpreter*, tflite::ErrorReporter*, tflite::MicroInterpreter*, tflite::ErrorReporter*, float*, int32_t*, float*, uint32_t*)	13
+main_functions_custom.cpp:379:5:int main_single_event_image(image_t, float)	2
+base.h:362:24:T flatbuffers::EndianScalar(T) [with T = long unsigned int]	1
+base.h:373:3:T flatbuffers::ReadScalar(const void*) [with T = short unsigned int]	1
+base.h:373:3:T flatbuffers::ReadScalar(const void*) [with T = long unsigned int]	1
+base.h:373:3:T flatbuffers::ReadScalar(const void*) [with T = long int]	1
+flatbuffers.h:2434:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = long unsigned int]	2
+flatbuffers.h:2086:31:const T* flatbuffers::GetRoot(const void*) [with T = tflite::Model]	1
+cmath:350:5:constexpr typename __gnu_cxx::__enable_if<std::__is_integer<_Tp>::__value, double>::__type std::log(_Tp) [with _Tp = int]	1
+base.h:362:24:T flatbuffers::EndianScalar(T) [with T = long int]	1
+base.h:362:24:T flatbuffers::EndianScalar(T) [with T = short unsigned int]	1
+flatbuffers.h:2079:25:T* flatbuffers::GetMutableRoot(void*) [with T = tflite::Model]	1
+main_functions_custom.cpp:23:7:Names::~Names()	1
+main_functions_custom.cpp:406:1:void __static_initialization_and_destruction_0(int, int)	5
+micro_mutable_op_resolver.h:35:7:tflite::MicroOpResolver<128>::~MicroOpResolver()	1
+micro_mutable_op_resolver.h:35:7:virtual tflite::MicroOpResolver<128>::~MicroOpResolver()	1
+micro_mutable_op_resolver.h:146:7:tflite::MicroMutableOpResolver::~MicroMutableOpResolver()	1
+micro_mutable_op_resolver.h:146:7:virtual tflite::MicroMutableOpResolver::~MicroMutableOpResolver()	1
+all_ops_resolver.h:22:7:tflite::ops::micro::AllOpsResolver::~AllOpsResolver()	1
+all_ops_resolver.h:22:7:virtual tflite::ops::micro::AllOpsResolver::~AllOpsResolver()	1
+micro_mutable_op_resolver.h:40:29:const TfLiteRegistration* tflite::MicroOpResolver<tOpCount>::FindOp(tflite::BuiltinOperator, int) const [with unsigned int tOpCount = 128]	7
+micro_mutable_op_resolver.h:54:29:const TfLiteRegistration* tflite::MicroOpResolver<tOpCount>::FindOp(const char*, int) const [with unsigned int tOpCount = 128]	8
+main_functions_custom.cpp:406:1:cpp)	1
+main_functions_custom.cpp:406:1:cpp)	1

@@ -1,0 +1,18 @@
+c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+../tensorflow/tensorflow/lite/core/api/op_resolver.h:35:11:tflite::OpResolver::~OpResolver()	16	static
+../tensorflow/tensorflow/lite/core/api/op_resolver.h:35:11:virtual tflite::OpResolver::~OpResolver()	16	static
+../tensorflow/tensorflow/lite/micro/micro_mutable_op_resolver.h:32:12:int tflite::MicroOpResolverAnyVersion()	4	static
+../tensorflow/tensorflow/lite/micro/micro_mutable_op_resolver.h:35:7:tflite::MicroOpResolver<128>::~MicroOpResolver()	16	static
+../tensorflow/tensorflow/lite/micro/micro_mutable_op_resolver.h:35:7:virtual tflite::MicroOpResolver<128>::~MicroOpResolver()	16	static
+../tensorflow/tensorflow/lite/micro/micro_mutable_op_resolver.h:146:7:tflite::MicroMutableOpResolver::MicroMutableOpResolver()	16	static
+../tensorflow/tensorflow/lite/micro/micro_mutable_op_resolver.h:146:7:tflite::MicroMutableOpResolver::~MicroMutableOpResolver()	16	static
+../tensorflow/tensorflow/lite/micro/micro_mutable_op_resolver.h:146:7:virtual tflite::MicroMutableOpResolver::~MicroMutableOpResolver()	16	static
+../tensorflow/tensorflow/lite/micro/kernels/all_ops_resolver.cc:23:1:tflite::ops::micro::AllOpsResolver::AllOpsResolver()	32	static
+../tensorflow/tensorflow/lite/core/api/op_resolver.h:27:7:constexpr tflite::OpResolver::OpResolver()	16	static
+../tensorflow/tensorflow/lite/micro/micro_mutable_op_resolver.h:37:12:tflite::MicroOpResolver<tOpCount>::MicroOpResolver(tflite::ErrorReporter*) [with unsigned int tOpCount = 128]	16	static
+../tensorflow/tensorflow/lite/micro/micro_mutable_op_resolver.h:89:16:TfLiteStatus tflite::MicroOpResolver<tOpCount>::AddBuiltin(tflite::BuiltinOperator, TfLiteRegistration*, int, int) [with unsigned int tOpCount = 128]	32	static
+../tensorflow/tensorflow/lite/micro/micro_mutable_op_resolver.h:68:16:TfLiteStatus tflite::MicroOpResolver<tOpCount>::AddBuiltin(tflite::BuiltinOperator, TfLiteRegistration*, int) [with unsigned int tOpCount = 128]	40	static
+../tensorflow/tensorflow/lite/micro/kernels/all_ops_resolver.h:22:7:tflite::ops::micro::AllOpsResolver::~AllOpsResolver()	16	static
+../tensorflow/tensorflow/lite/micro/kernels/all_ops_resolver.h:22:7:virtual tflite::ops::micro::AllOpsResolver::~AllOpsResolver()	16	static
+../tensorflow/tensorflow/lite/micro/micro_mutable_op_resolver.h:40:29:const TfLiteRegistration* tflite::MicroOpResolver<tOpCount>::FindOp(tflite::BuiltinOperator, int) const [with unsigned int tOpCount = 128]	40	static
+../tensorflow/tensorflow/lite/micro/micro_mutable_op_resolver.h:54:29:const TfLiteRegistration* tflite::MicroOpResolver<tOpCount>::FindOp(const char*, int) const [with unsigned int tOpCount = 128]	40	static

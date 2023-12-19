@@ -1,0 +1,8 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/rectangle.c:17:14:rectangle_alloc	32	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/rectangle.c:27:6:rectangle_equal	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/rectangle.c:32:6:rectangle_intersects	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/rectangle.c:41:6:rectangle_subimg	56	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/rectangle.c:64:13:rectangle_add	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/rectangle.c:74:13:rectangle_div	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/rectangle.c:82:10:rectangle_merge	56	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/rectangle.c:113:6:rectangle_expand	24	static

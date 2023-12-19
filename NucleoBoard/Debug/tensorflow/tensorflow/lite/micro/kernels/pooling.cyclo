@@ -1,0 +1,57 @@
+limits:525:7:static constexpr signed char std::numeric_limits<signed char>::min()	1
+limits:528:7:static constexpr signed char std::numeric_limits<signed char>::max()	1
+limits:1672:7:static constexpr float std::numeric_limits<float>::max()	1
+limits:1676:7:static constexpr float std::numeric_limits<float>::lowest()	1
+types.h:137:3:tflite::RuntimeShape::RuntimeShape()	1
+types.h:156:3:tflite::RuntimeShape::RuntimeShape(int, const int32*)	1
+types.h:178:3:tflite::RuntimeShape::~RuntimeShape()	3
+types.h:188:16:int32 tflite::RuntimeShape::DimensionsCount() const	1
+types.h:189:16:int32 tflite::RuntimeShape::Dims(int) const	2
+types.h:204:17:int32* tflite::RuntimeShape::DimsData()	2
+types.h:211:23:const int32* tflite::RuntimeShape::DimsDataUpTo5D() const	1
+types.h:213:15:void tflite::RuntimeShape::Resize(int)	5
+types.h:231:15:void tflite::RuntimeShape::ReplaceWith(int, const int32*)	1
+types.h:379:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	5
+types.h:432:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	1
+common.h:58:14:float tflite::ActivationFunctionWithMinMax(float, float, float)	1
+pooling.h:26:13:void tflite::reference_ops::AveragePool(const tflite::PoolParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	7
+pooling.h:79:13:void tflite::reference_ops::AveragePool(const tflite::PoolParams&, const tflite::RuntimeShape&, const uint8*, const tflite::RuntimeShape&, uint8*)	7
+pooling.h:189:13:void tflite::reference_ops::MaxPool(const tflite::PoolParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	7
+pooling.h:239:13:void tflite::reference_ops::MaxPool(const tflite::PoolParams&, const tflite::RuntimeShape&, const uint8*, const tflite::RuntimeShape&, uint8*)	7
+pooling.h:24:13:void tflite::reference_integer_ops::AveragePool(const tflite::PoolParams&, const tflite::RuntimeShape&, const int8*, const tflite::RuntimeShape&, int8*)	8
+pooling.h:81:13:void tflite::reference_integer_ops::MaxPool(const tflite::PoolParams&, const tflite::RuntimeShape&, const int8*, const tflite::RuntimeShape&, int8*)	7
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	2
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+kernel_util.h:28:12:int tflite::SizeOfDimension(const TfLiteTensor*, int)	1
+kernel_util.h:31:28:const TfLiteTensor* tflite::GetInput(TfLiteContext*, const TfLiteNode*, int)	1
+kernel_util.h:45:22:TfLiteTensor* tflite::GetOutput(TfLiteContext*, const TfLiteNode*, int)	1
+padding.h:32:12:int tflite::ComputePaddingWithOffset(int, int, int, int, int, int*)	1
+padding.h:44:12:int tflite::ComputeOutSize(TfLitePadding, int, int, int, int)	3
+padding.h:57:28:TfLitePaddingValues tflite::ComputePaddingHeightWidth(int, int, int, int, int, int, int, int, TfLitePadding, int*, int*)	1
+pooling.cc:37:14:TfLiteStatus tflite::ops::micro::pooling::{anonymous}::CalculateOpData(const TfLiteContext*, const TfLitePoolParams*, const TfLiteTensor*, const TfLiteTensor*, tflite::ops::micro::pooling::{anonymous}::OpData*)	1
+pooling.cc:56:6:void tflite::ops::micro::pooling::{anonymous}::AverageEvalFloat(const TfLiteContext*, const TfLiteNode*, const TfLitePoolParams*, const tflite::ops::micro::pooling::{anonymous}::OpData*, const TfLiteTensor*, TfLiteTensor*)	1
+pooling.cc:77:6:void tflite::ops::micro::pooling::{anonymous}::AverageEvalQuantized(TfLiteContext*, const TfLiteNode*, const TfLitePoolParams*, const tflite::ops::micro::pooling::{anonymous}::OpData*, const TfLiteTensor*, TfLiteTensor*)	3
+pooling.cc:106:6:void tflite::ops::micro::pooling::{anonymous}::MaxEvalFloat(TfLiteContext*, TfLiteNode*, TfLitePoolParams*, tflite::ops::micro::pooling::{anonymous}::OpData*, const TfLiteTensor*, TfLiteTensor*)	1
+pooling.cc:127:6:void tflite::ops::micro::pooling::{anonymous}::MaxEvalQuantized(TfLiteContext*, TfLiteNode*, TfLitePoolParams*, tflite::ops::micro::pooling::{anonymous}::OpData*, const TfLiteTensor*, TfLiteTensor*)	3
+pooling.cc:159:14:TfLiteStatus tflite::ops::micro::pooling::AverageEval(TfLiteContext*, TfLiteNode*)	6
+pooling.cc:185:14:TfLiteStatus tflite::ops::micro::pooling::MaxEval(TfLiteContext*, TfLiteNode*)	6
+pooling.cc:212:21:TfLiteRegistration* tflite::ops::micro::Register_AVERAGE_POOL_2D()	1
+pooling.cc:224:21:TfLiteRegistration* tflite::ops::micro::Register_MAX_POOL_2D()	1
+stl_algobase.h:254:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = long int]	2
+stl_algobase.h:230:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = long int]	2
+stl_algobase.h:254:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = float]	2
+stl_algobase.h:230:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = float]	2
+stl_algobase.h:254:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = int]	2
+stl_algobase.h:230:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = int]	2
+stl_algobase.h:254:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = unsigned char]	2
+stl_algobase.h:230:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = unsigned char]	2
+stl_algobase.h:254:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = signed char]	2
+stl_algobase.h:230:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = signed char]	2
+base.h:362:24:T flatbuffers::EndianScalar(T) [with T = int]	1
+kernel_util.h:169:6:void tflite::CalculateActivationRange(TfLiteFusedActivation, T*, T*) [with T = float]	4
+tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = float]	2
+tensor_ctypes.h:24:11:T* tflite::GetTensorData(TfLiteTensor*) [with T = float]	2
+tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = unsigned char]	2
+tensor_ctypes.h:24:11:T* tflite::GetTensorData(TfLiteTensor*) [with T = unsigned char]	2
+tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = signed char]	2
+tensor_ctypes.h:24:11:T* tflite::GetTensorData(TfLiteTensor*) [with T = signed char]	2

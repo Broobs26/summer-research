@@ -1,0 +1,12 @@
+matd.h:85:21:sq	1
+apriltag.c:127:25:zarray_create	2
+apriltag.c:156:20:zarray_destroy	3
+apriltag.c:218:19:zarray_size	1
+apriltag.c:246:20:zarray_ensure_capacity	5
+apriltag.c:267:20:zarray_add	1
+apriltag.c:336:20:zarray_get_volatile	1
+apriltag.c:794:9:homography_compute	11
+apriltag.c:1032:9:homography_to_pose	2
+apriltag.c:1117:9:homography_to_model_view	2
+apriltag.c:1221:6:quat_to_matrix	1
+apriltag.c:9555:6:imlib_rotation_corr	68

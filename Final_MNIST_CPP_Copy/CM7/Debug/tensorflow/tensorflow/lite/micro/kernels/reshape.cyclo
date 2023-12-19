@@ -1,0 +1,12 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+kernel_util.h:31:28:const TfLiteTensor* tflite::GetInput(TfLiteContext*, const TfLiteNode*, int)	1
+kernel_util.h:45:22:TfLiteTensor* tflite::GetOutput(TfLiteContext*, const TfLiteNode*, int)	1
+kernel_util.h:59:12:int tflite::NumInputs(const TfLiteNode*)	1
+kernel_util.h:60:12:int tflite::NumOutputs(const TfLiteNode*)	1
+kernel_util.h:65:16:int64_t tflite::NumElements(const TfLiteIntArray*)	2
+kernel_util.h:73:16:int64_t tflite::NumElements(const TfLiteTensor*)	1
+reshape.cc:30:14:TfLiteStatus tflite::ops::micro::reshape::ReshapeOutput(TfLiteContext*, TfLiteNode*)	11
+reshape.cc:69:14:TfLiteStatus tflite::ops::micro::reshape::Prepare(TfLiteContext*, TfLiteNode*)	6
+reshape.cc:76:14:TfLiteStatus tflite::ops::micro::reshape::Eval(TfLiteContext*, TfLiteNode*)	3
+reshape.cc:92:21:TfLiteRegistration* tflite::ops::micro::Register_RESHAPE()	1
+base.h:362:24:T flatbuffers::EndianScalar(T) [with T = int]	1

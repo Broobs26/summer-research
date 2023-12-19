@@ -1,0 +1,3 @@
+stm32ipl_equalization.c:44:16:STM32Ipl_GammaCorr	4
+stm32ipl_equalization.c:63:16:STM32Ipl_HistEq	10
+stm32ipl_equalization.c:91:16:STM32Ipl_HistEqClahe	10

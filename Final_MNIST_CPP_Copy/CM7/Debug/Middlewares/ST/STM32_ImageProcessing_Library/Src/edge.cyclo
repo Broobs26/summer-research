@@ -1,0 +1,2 @@
+edge.c:26:6:imlib_edge_simple	1
+edge.c:40:6:imlib_edge_canny	32

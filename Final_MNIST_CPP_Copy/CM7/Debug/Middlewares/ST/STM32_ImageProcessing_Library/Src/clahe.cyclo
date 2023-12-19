@@ -1,0 +1,7 @@
+clahe.c:68:5:CLAHE	21
+clahe.c:169:6:ClipHistogram	13
+clahe.c:220:6:MakeHistogram	4
+clahe.c:243:6:MapHistogram	3
+clahe.c:259:6:MakeLut	2
+clahe.c:270:6:Interpolate	7
+clahe.c:319:6:imlib_clahe_histeq	107

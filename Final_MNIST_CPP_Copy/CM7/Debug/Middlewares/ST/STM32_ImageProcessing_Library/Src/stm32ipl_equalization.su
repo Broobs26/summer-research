@@ -1,0 +1,3 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_equalization.c:44:16:STM32Ipl_GammaCorr	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_equalization.c:63:16:STM32Ipl_HistEq	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_equalization.c:91:16:STM32Ipl_HistEqClahe	24	static

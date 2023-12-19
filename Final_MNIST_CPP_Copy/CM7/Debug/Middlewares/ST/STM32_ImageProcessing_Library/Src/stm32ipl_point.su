@@ -1,0 +1,9 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_point.c:33:16:STM32Ipl_PointInit	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_point.c:49:10:STM32Ipl_PointAlloc	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_point.c:60:16:STM32Ipl_PointCopy	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_point.c:76:6:STM32Ipl_PointEqual	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_point.c:93:6:STM32Ipl_PointEqualFast	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_point.c:112:16:STM32Ipl_PointDistance	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_point.c:130:16:STM32Ipl_PointQuadrance	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_point.c:151:16:STM32Ipl_PointRotate	32	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_point.c:171:16:STM32Ipl_PointMinAreaRectangle	24	static

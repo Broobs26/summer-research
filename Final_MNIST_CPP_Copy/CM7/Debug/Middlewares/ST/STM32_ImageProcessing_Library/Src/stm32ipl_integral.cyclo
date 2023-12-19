@@ -1,0 +1,6 @@
+stm32ipl_integral.c:36:16:STM32Ipl_IIAllocData	4
+stm32ipl_integral.c:62:6:STM32Ipl_IIReleaseData	2
+stm32ipl_integral.c:77:16:STM32Ipl_II	8
+stm32ipl_integral.c:98:16:STM32Ipl_IIScaled	8
+stm32ipl_integral.c:121:16:STM32Ipl_IISq	8
+stm32ipl_integral.c:143:10:STM32Ipl_IILookup	4

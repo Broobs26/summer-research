@@ -1,0 +1,12 @@
+stm32ipl_filtering.c:42:16:STM32Ipl_MeanFilter	10
+stm32ipl_filtering.c:78:16:STM32Ipl_MedianFilter	12
+stm32ipl_filtering.c:116:16:STM32Ipl_ModeFilter	10
+stm32ipl_filtering.c:151:16:STM32Ipl_MidpointFilter	12
+stm32ipl_filtering.c:195:16:STM32Ipl_BilateralFilter	10
+stm32ipl_filtering.c:234:16:STM32Ipl_Morph	13
+stm32ipl_filtering.c:281:16:STM32Ipl_Gaussian	18
+stm32ipl_filtering.c:355:16:STM32Ipl_Laplacian	22
+stm32ipl_filtering.c:431:16:STM32Ipl_Sobel	41
+stm32ipl_filtering.c:570:16:STM32Ipl_Scharr	24
+stm32ipl_filtering.c:678:16:STM32Ipl_MidpointPool	11
+stm32ipl_filtering.c:711:16:STM32Ipl_MeanPool	10

@@ -1,0 +1,6 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_geometry.c:35:6:STM32Ipl_ClipLine	32	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_geometry.c:49:16:STM32Ipl_LineLength	32	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_geometry.c:73:16:STM32Ipl_PolylineLength	56	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_geometry.c:113:16:STM32Ipl_EnclosingCircle	88	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_geometry.c:158:16:STM32Ipl_EnclosingEllipse	120	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_geometry.c:219:16:STM32Ipl_FitEllipse	56	static

@@ -1,0 +1,27 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+main.cpp:81:5:int main()	15
+main.cpp:338:13:void SystemClock_Config()	4
+main.cpp:417:6:void PeriphCommonClock_Config()	2
+main.cpp:444:13:void MX_ADC1_Init()	4
+main.cpp:512:13:void MX_ADC3_Init()	3
+main.cpp:570:13:void MX_RTC_Init()	3
+main.cpp:624:13:void MX_USART1_UART_Init()	5
+main.cpp:672:13:void MX_GPIO_Init()	1
+main.cpp:703:13:void MPU_Config()	1
+main.cpp:749:13:void CPU_CACHE_Enable()	5
+main.cpp:759:6:void UTILS_Init()	1
+main.cpp:775:6:void DISPLAY_Init()	2
+main.cpp:800:6:void LCD_TestDisplay()	1
+main.cpp:813:6:void CAMERA_Init()	2
+main.cpp:836:13:void DMA2D_ConvertFrameToARGB8888(void*, void*, uint32_t, uint32_t)	4
+main.cpp:901:6:void BSP_CAMERA_FrameEventCallback(uint32_t)	1
+main.cpp:911:13:void DMA2D_TransferCompleteCallback(DMA2D_HandleTypeDef*)	1
+main.cpp:916:7:float adc_ref_internal_read()	5
+main.cpp:978:13:void SRAM_WriteData()	3
+main.cpp:1000:13:void SRAM_CheckData()	3
+main.cpp:1022:6:void RTC_Config()	2
+main.cpp:1048:6:void stop_mode1()	3
+main.cpp:1133:6:void stop_mode1_duration(uint32_t)	3
+main.cpp:1214:6:void stop_mode2()	1
+main.cpp:1265:6:void stop_mode2_duration(uint32_t)	1
+main.cpp:1307:6:void Error_Handler()	1

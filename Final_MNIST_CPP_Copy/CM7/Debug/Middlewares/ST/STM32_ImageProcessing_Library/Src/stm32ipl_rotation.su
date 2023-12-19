@@ -1,0 +1,9 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_rotation.c:48:16:STM32Ipl_Rotation	48	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_rotation.c:77:16:STM32Ipl_Replace	40	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_rotation.c:106:16:STM32Ipl_Flip	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_rotation.c:120:16:STM32Ipl_Mirror	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_rotation.c:134:16:STM32Ipl_FlipMirror	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_rotation.c:148:16:STM32Ipl_Rotation90	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_rotation.c:162:16:STM32Ipl_Rotation180	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_rotation.c:176:16:STM32Ipl_Rotation270	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_rotation.c:192:16:STM32Ipl_LensCorr	32	static

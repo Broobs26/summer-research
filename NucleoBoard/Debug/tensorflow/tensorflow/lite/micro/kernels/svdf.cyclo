@@ -1,0 +1,42 @@
+cmath:222:3:constexpr float std::exp(float)	1
+cmath:501:3:constexpr float std::tanh(float)	1
+cmath:661:3:constexpr bool std::signbit(float)	1
+limits:1204:7:static constexpr long int std::numeric_limits<long int>::min()	1
+limits:1207:7:static constexpr long int std::numeric_limits<long int>::max()	1
+fixedpoint.h:329:21:IntegerType gemmlowp::SaturatingRoundingDoublingHighMul(IntegerType, IntegerType) [with IntegerType = long int]	6
+common.h:153:14:int32 tflite::MultiplyByQuantizedMultiplier(int32, int32, int)	2
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+kernel_util.h:27:12:int tflite::NumDimensions(const TfLiteTensor*)	1
+kernel_util.h:31:28:const TfLiteTensor* tflite::GetInput(TfLiteContext*, const TfLiteNode*, int)	1
+kernel_util.h:39:22:TfLiteTensor* tflite::GetVariableInput(TfLiteContext*, const TfLiteNode*, int)	2
+kernel_util.h:45:22:TfLiteTensor* tflite::GetOutput(TfLiteContext*, const TfLiteNode*, int)	1
+kernel_util.h:77:28:const TfLiteTensor* tflite::GetOptionalInputTensor(TfLiteContext*, const TfLiteNode*, int)	4
+activation_utils.h:30:14:float tflite::ops::micro::ActivationValFloat(TfLiteFusedActivation, float)	8
+svdf.cc:55:20:void tflite::ops::micro::svdf::{anonymous}::ApplyTimeWeightsBiasAndActivation(int, int, int, int, int, const float*, const float*, TfLiteFusedActivation, float*, float*, float*)	13
+svdf.cc:116:13:void tflite::ops::micro::svdf::{anonymous}::EvalFloatSVDF(TfLiteContext*, TfLiteNode*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteSVDFParams*, int, TfLiteTensor*, TfLiteTensor*)	5
+stl_algobase.h:230:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = long int]	2
+stl_algobase.h:254:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = long int]	2
+svdf.cc:187:6:void tflite::ops::micro::svdf::{anonymous}::EvalIntegerSVDF(TfLiteContext*, TfLiteNode*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteSVDFParams*, TfLiteTensor*, TfLiteTensor*, const tflite::ops::micro::svdf::{anonymous}::OpData&, int32_t, int32_t)	16
+svdf.cc:339:7:void* tflite::ops::micro::svdf::Init(TfLiteContext*, const char*, size_t)	2
+svdf.cc:349:14:TfLiteStatus tflite::ops::micro::svdf::Prepare(TfLiteContext*, TfLiteNode*)	36
+svdf.cc:485:14:TfLiteStatus tflite::ops::micro::svdf::Eval(TfLiteContext*, TfLiteNode*)	4
+svdf.cc:530:21:TfLiteRegistration* tflite::ops::micro::Register_SVDF()	1
+stl_algobase.h:254:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = float]	2
+stl_algobase.h:230:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = float]	2
+fixedpoint.h:357:20:IntegerType gemmlowp::RoundingDivideByPOT(IntegerType, int) [with IntegerType = long int]	1
+base.h:362:24:T flatbuffers::EndianScalar(T) [with T = int]	1
+tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = float]	2
+tensor_ctypes.h:24:11:T* tflite::GetTensorData(TfLiteTensor*) [with T = float]	2
+tensor_ctypes.h:24:11:T* tflite::GetTensorData(TfLiteTensor*) [with T = short int]	2
+tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = signed char]	2
+tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = short int]	2
+tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = long int]	2
+tensor_ctypes.h:24:11:T* tflite::GetTensorData(TfLiteTensor*) [with T = signed char]	2
+fixedpoint.h:64:10:tRawType gemmlowp::Dup(typename gemmlowp::FixedPointRawTypeTraits<tRawType>::ScalarRawType) [with tRawType = long int]	1
+fixedpoint.h:70:14:tIntegerType gemmlowp::BitAnd(tIntegerType, tIntegerType) [with tIntegerType = long int]	1
+fixedpoint.h:140:14:tIntegerType gemmlowp::ShiftRight(tIntegerType, int) [with tIntegerType = long int]	1
+fixedpoint.h:199:14:tIntegerType gemmlowp::MaskIfLessThan(tIntegerType, tIntegerType) [with tIntegerType = long int]	1
+fixedpoint.h:94:14:tIntegerType gemmlowp::Add(tIntegerType, tIntegerType) [with tIntegerType = long int]	1
+fixedpoint.h:185:14:tIntegerType gemmlowp::MaskIfGreaterThan(tIntegerType, tIntegerType) [with tIntegerType = long int]	1
+fixedpoint.h:156:14:tIntegerType gemmlowp::MaskIfNonZero(tIntegerType) [with tIntegerType = long int]	2
+fixedpoint.h:88:14:tIntegerType gemmlowp::BitNot(tIntegerType) [with tIntegerType = long int]	1

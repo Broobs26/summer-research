@@ -1,0 +1,12 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_filtering.c:42:16:STM32Ipl_MeanFilter	32	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_filtering.c:78:16:STM32Ipl_MedianFilter	32	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_filtering.c:116:16:STM32Ipl_ModeFilter	32	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_filtering.c:151:16:STM32Ipl_MidpointFilter	32	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_filtering.c:195:16:STM32Ipl_BilateralFilter	40	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_filtering.c:234:16:STM32Ipl_Morph	64	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_filtering.c:281:16:STM32Ipl_Gaussian	80	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_filtering.c:355:16:STM32Ipl_Laplacian	80	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_filtering.c:431:16:STM32Ipl_Sobel	144	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_filtering.c:570:16:STM32Ipl_Scharr	104	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_filtering.c:678:16:STM32Ipl_MidpointPool	32	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_filtering.c:711:16:STM32Ipl_MeanPool	24	static

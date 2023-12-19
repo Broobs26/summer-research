@@ -1,0 +1,2 @@
+stm32ipl_edge.c:36:16:STM32Ipl_EdgeSimple	6
+stm32ipl_edge.c:59:16:STM32Ipl_EdgeCanny	6

@@ -1,0 +1,2 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_edge.c:36:16:STM32Ipl_EdgeSimple	48	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_edge.c:59:16:STM32Ipl_EdgeCanny	48	static

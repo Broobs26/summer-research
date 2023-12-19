@@ -1,0 +1,8 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/blob.c:17:14:sign	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/blob.c:22:12:sum_m_to_n	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/blob.c:27:12:sum_2_m_to_n	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/blob.c:32:12:cumulative_moving_average	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/blob.c:37:13:bin_up	72	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/blob.c:69:13:merge_bins	120	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/blob.c:111:14:calc_roundness	80	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/blob.c:132:6:imlib_find_blobs	1936	static,ignoring_inline_asm

@@ -1,0 +1,4 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/template.c:25:13:set_dsp	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/template.c:83:14:find_block_ncc	80	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/template.c:125:7:imlib_template_match_ds	144	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/template.c:221:7:imlib_template_match_ex	136	static,ignoring_inline_asm

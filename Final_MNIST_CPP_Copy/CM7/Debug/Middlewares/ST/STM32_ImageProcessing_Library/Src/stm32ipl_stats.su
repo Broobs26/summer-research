@@ -1,0 +1,13 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_stats.c:31:16:STM32Ipl_HistInit	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_stats.c:51:16:STM32Ipl_HistAllocData	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_stats.c:92:6:STM32Ipl_HistReleaseData	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_stats.c:118:16:STM32Ipl_GetHistogram	88	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_stats.c:182:16:STM32Ipl_GetPercentile	40	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_stats.c:212:16:STM32Ipl_GetThreshold	40	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_stats.c:244:16:STM32Ipl_GetSimilarity	48	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_stats.c:281:16:STM32Ipl_GetStatistics	56	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_stats.c:323:16:STM32Ipl_GetRegressionImage	72	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_stats.c:356:16:STM32Ipl_GetMean	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_stats.c:376:16:STM32Ipl_GetStdDev	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_stats.c:397:16:STM32Ipl_CountNonZero	160	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_stats.c:480:16:STM32Ipl_GetRegressionPoints	32	static

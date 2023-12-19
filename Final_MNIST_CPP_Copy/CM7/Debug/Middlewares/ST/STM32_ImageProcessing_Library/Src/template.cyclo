@@ -1,0 +1,4 @@
+template.c:25:13:set_dsp	14
+template.c:83:14:find_block_ncc	7
+template.c:125:7:imlib_template_match_ds	18
+template.c:221:7:imlib_template_match_ex	7

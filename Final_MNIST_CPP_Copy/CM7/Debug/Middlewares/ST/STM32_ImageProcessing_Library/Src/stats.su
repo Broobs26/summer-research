@@ -1,0 +1,11 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stats.c:25:6:imlib_similarity_line_op	216	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stats.c:147:6:imlib_get_similarity	96	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stats.c:180:6:imlib_get_histogram	1008	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stats.c:535:6:imlib_get_percentile	216	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stats.c:658:12:ostu	48	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stats.c:713:6:imlib_get_threshold	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stats.c:737:6:imlib_get_statistics	568	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stats.c:1141:12:get_median	40	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stats.c:1154:12:get_median_l	80	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stats.c:1167:6:imlib_get_regression	832	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/stats.c:1549:6:stm32ipl_get_regression_points	448	static,ignoring_inline_asm

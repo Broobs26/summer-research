@@ -1,0 +1,2 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/edge.c:26:6:imlib_edge_simple	64	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/edge.c:40:6:imlib_edge_canny	104	static,ignoring_inline_asm

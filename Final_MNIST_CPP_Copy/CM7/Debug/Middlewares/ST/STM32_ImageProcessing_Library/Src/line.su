@@ -1,0 +1,4 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/line.c:13:13:pixel_magnitude	336	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/line.c:189:13:merge_line	160	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/line.c:250:6:merge_alot	208	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/line.c:377:8:trace_line	96	static

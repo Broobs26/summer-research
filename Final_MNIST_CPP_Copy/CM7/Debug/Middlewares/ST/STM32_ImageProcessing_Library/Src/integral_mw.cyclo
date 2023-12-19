@@ -1,0 +1,10 @@
+integral_mw.c:74:6:imlib_integral_mw_alloc	2
+integral_mw.c:91:6:imlib_integral_mw_free	2
+integral_mw.c:100:6:imlib_integral_mw_scale	1
+integral_mw.c:112:6:imlib_integral_mw	8
+integral_mw.c:150:6:imlib_integral_mw_sq	12
+integral_mw.c:188:6:imlib_integral_mw_shift	6
+integral_mw.c:226:6:imlib_integral_mw_shift_sq	8
+integral_mw.c:264:6:imlib_integral_mw_ss	16
+integral_mw.c:311:6:imlib_integral_mw_shift_ss	10
+integral_mw.c:357:6:imlib_integral_mw_lookup	1

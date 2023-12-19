@@ -1,0 +1,6 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/integral.c:19:6:imlib_integral_image_alloc	24	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/integral.c:26:6:imlib_integral_image_free	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/integral.c:32:6:imlib_integral_image	48	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/integral.c:59:6:imlib_integral_image_scaled	64	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/integral.c:93:6:imlib_integral_image_sq	48	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/integral.c:121:10:imlib_integral_lookup	24	static

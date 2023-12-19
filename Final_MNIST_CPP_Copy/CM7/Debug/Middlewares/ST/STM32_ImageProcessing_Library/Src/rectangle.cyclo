@@ -1,0 +1,8 @@
+rectangle.c:17:14:rectangle_alloc	1
+rectangle.c:27:6:rectangle_equal	5
+rectangle.c:32:6:rectangle_intersects	5
+rectangle.c:41:6:rectangle_subimg	2
+rectangle.c:64:13:rectangle_add	1
+rectangle.c:74:13:rectangle_div	1
+rectangle.c:82:10:rectangle_merge	5
+rectangle.c:113:6:rectangle_expand	5

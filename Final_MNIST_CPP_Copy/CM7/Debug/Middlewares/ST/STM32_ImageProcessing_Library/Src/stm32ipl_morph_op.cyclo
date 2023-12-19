@@ -1,0 +1,6 @@
+stm32ipl_morph_op.c:40:16:STM32Ipl_Dilate	10
+stm32ipl_morph_op.c:70:16:STM32Ipl_Erode	10
+stm32ipl_morph_op.c:98:16:STM32Ipl_Open	10
+stm32ipl_morph_op.c:126:16:STM32Ipl_Close	10
+stm32ipl_morph_op.c:154:16:STM32Ipl_TopHat	10
+stm32ipl_morph_op.c:182:16:STM32Ipl_BlackHat	10

@@ -1,0 +1,1 @@
+This is the folder for the correct main.c for the Sparkfun Edge to the STM32 Nucleo-64 board

@@ -1,0 +1,14 @@
+stm32ipl_math_op.c:52:16:STM32Ipl_Invert	4
+stm32ipl_math_op.c:73:16:STM32Ipl_And	16
+stm32ipl_math_op.c:93:16:STM32Ipl_Nand	16
+stm32ipl_math_op.c:113:16:STM32Ipl_Or	16
+stm32ipl_math_op.c:133:16:STM32Ipl_Nor	16
+stm32ipl_math_op.c:153:16:STM32Ipl_Xor	16
+stm32ipl_math_op.c:173:16:STM32Ipl_Xnor	16
+stm32ipl_math_op.c:193:16:STM32Ipl_Add	16
+stm32ipl_math_op.c:214:16:STM32Ipl_Sub	16
+stm32ipl_math_op.c:237:16:STM32Ipl_Mul	16
+stm32ipl_math_op.c:260:16:STM32Ipl_Div	16
+stm32ipl_math_op.c:281:16:STM32Ipl_Diff	16
+stm32ipl_math_op.c:301:16:STM32Ipl_Min	16
+stm32ipl_math_op.c:321:16:STM32Ipl_Max	16

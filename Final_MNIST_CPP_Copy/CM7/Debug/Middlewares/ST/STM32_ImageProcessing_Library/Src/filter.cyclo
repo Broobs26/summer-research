@@ -1,0 +1,11 @@
+filter.c:14:6:imlib_histeq	33
+filter.c:177:6:imlib_mean_filter	69
+filter.c:486:16:hist_median	5
+filter.c:510:6:imlib_median_filter	69
+filter.c:837:16:find_mode	5
+filter.c:854:6:imlib_mode_filter	101
+filter.c:1308:6:imlib_midpoint_filter	98
+filter.c:1649:6:imlib_morph	85
+filter.c:1969:14:gaussian	1
+filter.c:1974:14:distance	1
+filter.c:1979:6:imlib_bilateral_filter	106

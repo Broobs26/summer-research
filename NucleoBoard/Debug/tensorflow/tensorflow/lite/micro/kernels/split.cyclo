@@ -1,0 +1,24 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+kernel_util.h:27:12:int tflite::NumDimensions(const TfLiteTensor*)	1
+kernel_util.h:31:28:const TfLiteTensor* tflite::GetInput(TfLiteContext*, const TfLiteNode*, int)	1
+kernel_util.h:45:22:TfLiteTensor* tflite::GetOutput(TfLiteContext*, const TfLiteNode*, int)	1
+kernel_util.h:60:12:int tflite::NumOutputs(const TfLiteNode*)	1
+kernel_util.h:94:13:bool tflite::IsConstantTensor(const TfLiteTensor*)	1
+split.cc:68:14:TfLiteStatus tflite::ops::micro::split::Eval(TfLiteContext*, TfLiteNode*)	10
+split.cc:114:21:TfLiteRegistration* tflite::ops::micro::Register_SPLIT()	1
+base.h:362:24:T flatbuffers::EndianScalar(T) [with T = int]	1
+tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = long int]	2
+split.cc:27:14:TfLiteStatus tflite::ops::micro::split::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteTensor*, int) [with T = float]	7
+split.cc:27:14:TfLiteStatus tflite::ops::micro::split::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteTensor*, int) [with T = unsigned char]	7
+split.cc:27:14:TfLiteStatus tflite::ops::micro::split::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteTensor*, int) [with T = signed char]	7
+split.cc:27:14:TfLiteStatus tflite::ops::micro::split::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteTensor*, int) [with T = short int]	7
+split.cc:27:14:TfLiteStatus tflite::ops::micro::split::SplitImpl(TfLiteContext*, TfLiteNode*, const TfLiteTensor*, int) [with T = long int]	7
+tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = float]	2
+tensor_ctypes.h:24:11:T* tflite::GetTensorData(TfLiteTensor*) [with T = float]	2
+tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = unsigned char]	2
+tensor_ctypes.h:24:11:T* tflite::GetTensorData(TfLiteTensor*) [with T = unsigned char]	2
+tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = signed char]	2
+tensor_ctypes.h:24:11:T* tflite::GetTensorData(TfLiteTensor*) [with T = signed char]	2
+tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = short int]	2
+tensor_ctypes.h:24:11:T* tflite::GetTensorData(TfLiteTensor*) [with T = short int]	2
+tensor_ctypes.h:24:11:T* tflite::GetTensorData(TfLiteTensor*) [with T = long int]	2

@@ -1,0 +1,11 @@
+stm32ipl_drawing.c:75:17:getInputColorMode	7
+stm32ipl_drawing.c:112:16:STM32Ipl_DrawScreen_DMA2D	15
+stm32ipl_drawing.c:234:16:STM32Ipl_Zero	10
+stm32ipl_drawing.c:262:16:STM32Ipl_Fill	10
+stm32ipl_drawing.c:299:16:STM32Ipl_DrawPixel	4
+stm32ipl_drawing.c:320:16:STM32Ipl_DrawCross	4
+stm32ipl_drawing.c:347:16:STM32Ipl_DrawLine	6
+stm32ipl_drawing.c:370:16:STM32Ipl_DrawPolygon	6
+stm32ipl_drawing.c:402:16:STM32Ipl_DrawRectangle	6
+stm32ipl_drawing.c:428:16:STM32Ipl_DrawCircle	4
+stm32ipl_drawing.c:449:16:STM32Ipl_DrawEllipse	5

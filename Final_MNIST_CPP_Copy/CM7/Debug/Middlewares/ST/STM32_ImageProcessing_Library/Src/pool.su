@@ -1,0 +1,2 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/pool.c:12:6:imlib_midpoint_pool	296	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/pool.c:128:6:imlib_mean_pool	232	static

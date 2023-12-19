@@ -1,0 +1,17 @@
+mathop.c:14:6:imlib_gamma_corr	30
+mathop.c:218:13:imlib_replace_line_op	35
+mathop.c:290:6:imlib_replace	4
+mathop.c:321:13:imlib_add_line_op	17
+mathop.c:394:6:imlib_add	1
+mathop.c:404:13:imlib_sub_line_op	25
+mathop.c:490:6:imlib_sub	1
+mathop.c:503:13:imlib_mul_line_op	25
+mathop.c:602:6:imlib_mul	1
+mathop.c:615:13:imlib_div_line_op	89
+mathop.c:726:6:imlib_div	1
+mathop.c:735:13:imlib_min_line_op	17
+mathop.c:800:6:imlib_min	1
+mathop.c:805:13:imlib_max_line_op	17
+mathop.c:870:6:imlib_max	1
+mathop.c:875:13:imlib_difference_line_op	17
+mathop.c:940:6:imlib_difference	1

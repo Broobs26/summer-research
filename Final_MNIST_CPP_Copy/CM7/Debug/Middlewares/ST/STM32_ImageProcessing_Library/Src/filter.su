@@ -1,0 +1,11 @@
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/filter.c:14:6:imlib_histeq	408	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/filter.c:177:6:imlib_mean_filter	408	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/filter.c:486:16:hist_median	56	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/filter.c:510:6:imlib_median_filter	416	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/filter.c:837:16:find_mode	32	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/filter.c:854:6:imlib_mode_filter	408	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/filter.c:1308:6:imlib_midpoint_filter	544	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/filter.c:1649:6:imlib_morph	448	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/filter.c:1969:14:gaussian	16	static
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/filter.c:1974:14:distance	24	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ImageProcessing_Library/Src/filter.c:1979:6:imlib_bilateral_filter	880	static,ignoring_inline_asm
