@@ -4,19 +4,17 @@ This is a github containing the code for the Research Work between June and Dece
 Prepared by Christopher Brubaker December 2023.
 
 ## Structure
-./AmbiqStudioSDK
-Contains the source code and build configuration for the SparkFun Edge Board
+./AmbiqStudioSDK - Contains the source code and build configuration for the SparkFun Edge Board
 
 ./AmbiqStudioSDK/boards_sfe/common/examples/hm01b0_camera_uart/main.c -> File for using the SparkFun Edge Board main.c file. This was the file I was working on, attempting to connect communications to the Nucleo Board Code
 
-./Final_MNIST_CPP_Copy
-Folder for all code and the STM32CubeIDE Project for the STM32H747I-DISCO Board
+./Final_MNIST_CPP_Copy -Folder for all code and the STM32CubeIDE Project for the STM32H747I-DISCO Board
 
 ./Final_MNIST_CPP_Copy/CM7/Core/Src/main.cpp -> Main file for the code that runs on the STM32H747I-DISCO Board
-./Final_MNIST_CPP_Copy/CM7/Core/Src/TF       -> Contains all of the files for the functions that run inferences and stores the tensorflow model in chunks
 
-./NucleoBoard
-Folder for all code and the STM32CubeIDE Project for the NUCLEO-L476RG Board
+./Final_MNIST_CPP_Copy/CM7/Core/Src/TF -> Contains all of the files for the functions that run inferences and stores the tensorflow model in chunks
+
+./NucleoBoard - Folder for all code and the STM32CubeIDE Project for the NUCLEO-L476RG Board
 
 ./NucleoBoard/Hardware/ArduCAM -> Code for the ArduCAM Module, which communicates to the Board. Hookup for this is based on SPI and I2C Pins, which are in the .ioc file in ./NucleoBoard/NucleoBoard.ioc
 
@@ -64,6 +62,7 @@ Once I was back, I tried getting the board working, which I did end up doing, bu
 After this, I started to combine the FP-AI-VISION1 package with the code from Yawen's previous work, which resulted in the working Final_MNIST_CPP_Copy.
 This required reading into a specific version of TensorFlow Lite for Microcontrollers (https://www.tensorflow.org/lite/microcontrollers), and downloading and using their repo from the past.
 I was not able to get the current version working, due to some complications, so had to rely on the old version from Yawen's work.
+After this was done, I ported the code over to the NUCLEO-L476RG board.
 
 ## Future Work
 For the future, I would advise a couple things.
