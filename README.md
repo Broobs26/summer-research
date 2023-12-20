@@ -8,7 +8,7 @@ Prepared by Christopher Brubaker December 2023.
 
 ./AmbiqStudioSDK/boards_sfe/common/examples/hm01b0_camera_uart/main.c -> File for using the SparkFun Edge Board main.c file. This was the file I was working on, attempting to connect communications to the Nucleo Board Code
 
-./Final_MNIST_CPP_Copy -Folder for all code and the STM32CubeIDE Project for the STM32H747I-DISCO Board
+./Final_MNIST_CPP_Copy - Folder for all code and the STM32CubeIDE Project for the STM32H747I-DISCO Board
 
 ./Final_MNIST_CPP_Copy/CM7/Core/Src/main.cpp -> Main file for the code that runs on the STM32H747I-DISCO Board
 
