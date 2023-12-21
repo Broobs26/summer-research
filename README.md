@@ -1,7 +1,8 @@
 # summer-research
 
 This is a github containing the code for the Research Work between June and December 2023
-Prepared by Christopher Brubaker December 2023.
+
+Prepared by Christopher Brubaker December 2023
 
 ## Structure
 ./AmbiqStudioSDK - Contains the source code and build configuration for the SparkFun Edge Board
@@ -17,6 +18,8 @@ Prepared by Christopher Brubaker December 2023.
 ./NucleoBoard - Folder for all code and the STM32CubeIDE Project for the NUCLEO-L476RG Board
 
 ./NucleoBoard/Hardware/ArduCAM -> Code for the ArduCAM Module, which communicates to the Board. Hookup for this is based on SPI and I2C Pins, which are in the .ioc file in ./NucleoBoard/NucleoBoard.ioc
+
+./References - Folder for Videos and Images related to this work
 
 ## Information
 ### Putty and Serial Terminals:
@@ -53,6 +56,13 @@ The ArduCAM module had to be modified for the NUCLEO-L476RG board, to use STM32'
 I was not able to use this module in the end due to high current draw, as well as an inability to figure out how to uncompress a jpeg image.
 The documentation for the ArduCAM timing is at https://docs.arducam.com/Arduino-SPI-camera/Legacy-SPI-camera/Detailed-Data-Timing-on-Arducam-SPI-Bus/.
 This does have the ability to run inferences as well, just with minor modifications needed to the code.
+This is also where I was testing the SLEEP and STOP modes of the STM boards.
+
+### Converting of TFLITE to C Array
+This is done using the convert_file_to_c_source.py file inside of the main TensorFlow repository.
+This is inside the TensorFlow repo in the tensorflow/lite/python folder.
+I recommend using TensorFlow version 2.2 or 2.3, as those were the versions that worked converting for me.
+TensorFlow 2.2 is the version that is inside of the C++ code for the boards projects as well.
 
 ## Overall Overview of Work
 In May, I initially started work with the STM32H747I-DISCO board in order to use their built-in FP-AI-VISION1 package.
