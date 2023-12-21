@@ -62,7 +62,20 @@ Once I was back, I tried getting the board working, which I did end up doing, bu
 After this, I started to combine the FP-AI-VISION1 package with the code from Yawen's previous work, which resulted in the working Final_MNIST_CPP_Copy.
 This required reading into a specific version of TensorFlow Lite for Microcontrollers (https://www.tensorflow.org/lite/microcontrollers), and downloading and using their repo from the past.
 I was not able to get the current version working, due to some complications, so had to rely on the old version from Yawen's work.
-After this was done, I ported the code over to the NUCLEO-L476RG board.
+
+Next we worked on a board called the OpenMV Cam H7.
+This board also consumed a large amount of current while running, however we thought it could be useful due to the embedded camera on the board.
+After some investigation into the code of the H7, I found that there were some issues with the code.
+The OpenMV Cam H7 was meant to be more of a learning board for people who are new to coding, and runs a modified version of micropython, at least according to the IDE.
+In the end, we found out that it did not actually run micropython, but rather ran an interpreter for micropython written in C++.
+
+After attempting to modify the code for a while, I determined that it was not worth trying to recode the entire board for our purposes, and thus moved on to the NUCLEO-L476RG board.
+Once decided on the NUCLEO-L476RG board, I ported the inference code from the STM32H747I-DISCO board.
+This board was a better option that the OpenMV board additionally as it draws less power.
+Once I had ported the inference code over, I then started to look for camera modules to integrate with the board, so that we could take a photo and run inference on that taken photo.
+At first we tried the ArduCAM camera, but due to high current usage, we moved away from it.
+Also, we moved away from it due to the transimission of images from the camera to the microcontroller, which only occured in compressed JPEG form.
+We then moved onto the SparkFun Edge board, which is where I was working until my stopping of work on the project.
 
 ## Future Work
 For the future, I would advise a couple things.
@@ -70,6 +83,7 @@ For the future, I would advise a couple things.
 2) Once communications are complete, downscale the image taken on the SparkFun Edge and then transfer it via I2C over to the NUCLEO-L476RG board.
 3) Run inferences on images with the new low power camera module, and measure power draw (This can only be done for the NUCLEO board).
 4) Measure the current consumption of the STM32H747I-DISCO board as well, just as a comparison point (I was meaning to do this, but never got around to it).
+5) Figure out a wakeup routine for waking the NUCLEO-L476RG board from SLEEP or STOP mode (See main.cpp in the respective code folder).
 
 NOTES:
 The SparkFun Edge board CANNOT be powered externally.
@@ -78,8 +92,8 @@ Due to the limited nature of I2C communications, I would recommend figuring out 
 Additionally, the SparkFun Edge board uses a proprietary I2C communication method called QWIIC, which requires additional tending to convert and communicate properly with other I2C systems.
 
 Because of some of these notes, I actually advise moving on from the SparkFun Edge board to one of two things:
-1) Switching to a camera module board using this smaller and less power hungry camera, currently on the SparkFun Edge
-2) Designing a PCB or board for either a custom camera communication module of full system, including an ARM chip
+1) Switching to a camera module board using this smaller and less power hungry camera, currently on the SparkFun Edge or finding another low power camera module that can interface with the NUCLEO-L476RG board
+3) Designing a PCB or board for either a custom camera communication module of full system, including an ARM chip
 
 For (1), the ideal situation would be a board that is powered directly from the NUCLEO board, without having to having its own microcontroller and entire development board attached.
 Finding one of these is easier said then done, and focusing on low power consumption should be emphasized.
