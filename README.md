@@ -1,6 +1,6 @@
-# summer-research
+# TinyML
 
-This is a github containing the code for the Research Work between June and December 2023
+This is a github containing the code for the Research Work between May and December 2023
 
 Prepared by Christopher Brubaker December 2023
 
