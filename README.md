@@ -106,3 +106,6 @@ Because of some of these notes, I actually advise moving on from the SparkFun Ed
 For (1), the ideal situation would be a board that is powered directly from the NUCLEO board, without having to having its own microcontroller and entire development board attached.
 Finding one of these is easier said then done, and focusing on low power consumption should be emphasized.
 For (2), this would allow for flexibility in design, as well as a lower power consumption, as things that are not necessary to the project could be thrown out.
+
+## Questions
+Contact clb251@pitt.edu or cbrubaker3236@gmail.com
