@@ -92,9 +92,11 @@ For the future, I would advise a couple things.
 3) Run inferences on images with the new low power camera module, and measure power draw (This can only be done for the NUCLEO board).
 4) Measure the current consumption of the STM32H747I-DISCO board as well, just as a comparison point (I was meaning to do this, but never got around to it).
 5) Figure out a wakeup routine for waking the NUCLEO-L476RG board from SLEEP or STOP mode (See main.cpp in the respective code folder).
+6) Check out switching the core on the STM32H747I-DISCO board to the other core, and reducing peripherials to see if power consumption is lower.
+7) Check other sensors - Microphones, IR Sensors, ETC - instead of cameras for other things.
 
 NOTES:
-The SparkFun Edge board CANNOT be powered externally.
+The SparkFun Edge board CANNOT be powered externally. (This may be incorrect if jumping of the pins for 
 It must be powered with a coin cell battery on the bottom, which is why I would actually move on from this board, but keep the camera in mind.
 Due to the limited nature of I2C communications, I would recommend figuring out another method of communication, or a direct camera module for this project.
 Additionally, the SparkFun Edge board uses a proprietary I2C communication method called QWIIC, which requires additional tending to convert and communicate properly with other I2C systems.
@@ -109,3 +111,8 @@ For (2), this would allow for flexibility in design, as well as a lower power co
 
 ## Questions
 Contact clb251@pitt.edu or cbrubaker3236@gmail.com
+
+## NSF Information
+NSF Award Number: 2007274
+Primary Investigator: Jingtong Hu
+Project Title: Collaborative Research: CNS Core: Small: Intermittent and Incremental Inference with Statistical Neural Network for Energy-Harvesting Powered Devices
