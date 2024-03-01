@@ -114,5 +114,7 @@ Contact clb251@pitt.edu or cbrubaker3236@gmail.com
 
 ## NSF Information
 NSF Award Number: 2007274
+
 Primary Investigator: Jingtong Hu
+
 Project Title: Collaborative Research: CNS Core: Small: Intermittent and Incremental Inference with Statistical Neural Network for Energy-Harvesting Powered Devices
