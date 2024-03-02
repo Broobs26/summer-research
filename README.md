@@ -96,8 +96,9 @@ For the future, I would advise a couple things.
 7) Check other sensors - Microphones, IR Sensors, ETC - instead of cameras for other things.
 
 NOTES:
-The SparkFun Edge board CANNOT be powered externally. (This may be incorrect if jumping of the pins for 
+The SparkFun Edge board CANNOT be powered externally. 
 It must be powered with a coin cell battery on the bottom, which is why I would actually move on from this board, but keep the camera in mind.
+If jumpers can be used to substitute for the coin cell, this note is invalid and not necessary.
 Due to the limited nature of I2C communications, I would recommend figuring out another method of communication, or a direct camera module for this project.
 Additionally, the SparkFun Edge board uses a proprietary I2C communication method called QWIIC, which requires additional tending to convert and communicate properly with other I2C systems.
 
